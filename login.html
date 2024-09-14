@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: -moz-linear-gradient(rgb(60, 197, 252) , rgb(77, 76, 76))
+    }
+    .content{
+        width: 300px;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 5px ;
+        border: 1px solid black;
+        /* margin-left: 20px; */
+        margin: 2px;
+    }
+    input{
+        width: 250px;
+        margin: 2px 0px;
+        height: 20px;
+        padding: 1px;
+        margin-left: 30px;
+        font-weight: 800;
+        text-transform: capitalize;
+        /* font-size: 15px; */
+
+    }
+    .h1{
+        margin-left: 40px;
+        color: rgb(5, 5, 5);
+        font-weight: 1000;
+        font-size: 40px;
+        
+    }
+    .button{
+        background: #f80303;
+        height: 30px;
+        font-size: 20px;
+    }
+   
+
+</style>
+<body>
+    
+    <form action="#">
+        <h1 class="h1">LOGIN PAGE</h1>
+        <div class="content">
+            <input type="Username" placeholder="Username" name="Username" id="">
+            <br>
+            <input type="email" placeholder="email" name="email" id="">
+            <br>
+            <input type="password" placeholder="password"  name="placeholder" id="">
+            <br>
+            <input class="button" type="submit" value="LOGIN" name="LOGIN" id="">
+        </div>
+    </form>
+</body>
+</html>
